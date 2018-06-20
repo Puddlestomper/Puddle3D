@@ -18,3 +18,9 @@ Permission is granted to anyone to use this software for any purpose, including 
   * _libogg_ is under the BSD license
   * _libvorbis_ is under the BSD license
   * _libflac_ is under the BSD license
+  
+# Eigen
+
+"Eigen is Free Software. Starting from the 3.1.1 version, it is licensed under the MPL2, which is a simple weak copyleft license."
+The MPL2 license can be found at https://www.mozilla.org/en-US/MPL/2.0/
+Eigen itself can be found at http://eigen.tuxfamily.org/

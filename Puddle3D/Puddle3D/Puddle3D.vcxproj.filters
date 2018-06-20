@@ -24,6 +24,9 @@
     <ClCompile Include="src\graphics\Frame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\world\Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="src\world\Object3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -624,6 +627,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="lib\SFML\x86\include\SFML\Window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world\Cube.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

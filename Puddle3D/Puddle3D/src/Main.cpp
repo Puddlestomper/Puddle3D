@@ -5,24 +5,22 @@
 #include "SFML/Graphics/CircleShape.hpp"
 
 #include "graphics/Window.h"
+#include "world/Cube.h"
 
 //NOTE: z-axis is positive into the screen
 
 int main()
 {
-	Eigen::MatrixXd m(2, 2);
-	m(0, 0) = 3;
-	m(1, 0) = 2.5;
-	m(0, 1) = -1;
-	m(1, 1) = m(1, 0) + m(0, 1);
-	std::cout << m << "\n";
-	
-	Window window(Frame(200, 200), "SFML works!");
+	Eigen::RowVector3f pos(200.0f, 250.0f, 0.0f);
+	Cube cube(pos);
+	cube.scale(200.0f);
+	cube.rotateY(45);
+	cube.rotateZ(45);
+	cube.rotateX(45);
 
-	sf::CircleShape shape(100.f);
-	shape.setFillColor(sf::Color::Green);
+	Window window(Frame(600, 400), "SFML works!");
 
-	window.addToDraw(&shape);
+	window.addToDraw(&cube);
 
 	window.start();
 

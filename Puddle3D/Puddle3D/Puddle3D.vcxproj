@@ -145,6 +145,7 @@
     <ClCompile Include="src\graphics\Frame.cpp" />
     <ClCompile Include="src\graphics\Window.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\world\Cube.cpp" />
     <ClCompile Include="src\world\Object3D.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -346,6 +347,7 @@
     <ClInclude Include="lib\SFML\x86\include\SFML\Window\WindowStyle.hpp" />
     <ClInclude Include="src\graphics\Frame.h" />
     <ClInclude Include="src\graphics\Window.h" />
+    <ClInclude Include="src\world\Cube.h" />
     <ClInclude Include="src\world\Object3D.h" />
   </ItemGroup>
   <ItemGroup>
